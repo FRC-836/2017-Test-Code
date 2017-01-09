@@ -1,0 +1,5 @@
+do some physics to get required velocity/theta out of shooter, even in motion
+outer hexagon line math
+vision handling
+travel to theta calculation for shooter rotation
+PID xy position
