@@ -493,6 +493,12 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Autonomous Independent Cheeto.vi" Type="VI" URL="../Autonomous Independent Cheeto.vi"/>
+			<Item Name="Autonomous Independent Curtis.vi" Type="VI" URL="../Autonomous Independent Curtis.vi"/>
+			<Item Name="Autonomous Independent Ian.vi" Type="VI" URL="../Autonomous Independent Ian.vi"/>
+			<Item Name="Begin Cheeto.vi" Type="VI" URL="../Begin Cheeto.vi"/>
+			<Item Name="Begin Curtis.vi" Type="VI" URL="../Begin Curtis.vi"/>
+			<Item Name="Begin Ian.vi" Type="VI" URL="../Begin Ian.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -511,6 +517,12 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Periodic Tasks Cheeto.vi" Type="VI" URL="../Periodic Tasks Cheeto.vi"/>
+			<Item Name="Periodic Tasks Curtis.vi" Type="VI" URL="../Periodic Tasks Curtis.vi"/>
+			<Item Name="Periodic Tasks Ian.vi" Type="VI" URL="../Periodic Tasks Ian.vi"/>
+			<Item Name="Vision Processing Cheeto.vi" Type="VI" URL="../Vision Processing Cheeto.vi"/>
+			<Item Name="Vision Processing Curtis.vi" Type="VI" URL="../Vision Processing Curtis.vi"/>
+			<Item Name="Vision Processing Ian.vi" Type="VI" URL="../Vision Processing Ian.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
