@@ -588,6 +588,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Periodic Tasks Cheeto.vi" Type="VI" URL="../Periodic Tasks Cheeto.vi"/>
 			<Item Name="Periodic Tasks Curtis.vi" Type="VI" URL="../Periodic Tasks Curtis.vi"/>
 			<Item Name="Periodic Tasks Ian.vi" Type="VI" URL="../Periodic Tasks Ian.vi"/>
+			<Item Name="tbh.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/user.lib/836-Library/Motion_Control/tbh.vi"/>
 			<Item Name="Vision Processing Cheeto.vi" Type="VI" URL="../Vision Processing Cheeto.vi"/>
 			<Item Name="Vision Processing Curtis.vi" Type="VI" URL="../Vision Processing Curtis.vi"/>
 			<Item Name="Vision Processing Ian.vi" Type="VI" URL="../Vision Processing Ian.vi"/>
