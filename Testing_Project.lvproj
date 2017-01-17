@@ -134,6 +134,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="TDMS_Channel_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Initialize.vi"/>
 		<Item Name="TDMS_Channel_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Write.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -141,6 +142,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GroupChannelIDs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/GroupChannelIDs.ctl"/>
 				<Item Name="TDMS_Channel_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Info.ctl"/>
 				<Item Name="TDMS_RT_FIFO_Packet.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_RT_FIFO_Packet.ctl"/>
+				<Item Name="UpDown_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/UpDown_Counter.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
