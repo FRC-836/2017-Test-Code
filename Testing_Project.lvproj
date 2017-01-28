@@ -8,7 +8,9 @@
 	<Property Name="varPersistentID:{5756934E-4DB5-4436-A9BA-E704725F3E54}" Type="Ref">/Target/MaddenSharedVariables.lvlib/GearTargetValid</Property>
 	<Property Name="varPersistentID:{5C5B836E-845E-485E-91FF-3429CDD194E9}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Gear Yaw Delta</Property>
 	<Property Name="varPersistentID:{695BEE0C-01E4-4580-A7DE-CEF9E152A121}" Type="Ref">/Target/Untitled Library 1.lvlib/Current2</Property>
+	<Property Name="varPersistentID:{6A7C734B-76A7-4C1E-9DF3-755A62B7EA44}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Right Axis</Property>
 	<Property Name="varPersistentID:{78CC37C6-41D1-4C79-A83A-57240F861BAC}" Type="Ref">/Target/Untitled Library 1.lvlib/Control Signal1</Property>
+	<Property Name="varPersistentID:{B721F71C-95EF-4C30-AC69-4873B64DAF48}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Left Axis</Property>
 	<Property Name="varPersistentID:{C57F5BEB-EF90-4C88-98B7-A95DBB00FAC4}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Peg Distance</Property>
 	<Property Name="varPersistentID:{C5FBABEB-B096-4F82-B37B-74D6AF69536A}" Type="Ref">/Target/Untitled Library 1.lvlib/Current3</Property>
 	<Property Name="varPersistentID:{FE10889C-3A01-4677-BA19-B25048623ABE}" Type="Ref">/Target/Untitled Library 1.lvlib/Current1</Property>
@@ -166,11 +168,13 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="IMUOrientRefNum_Registry_Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum_Registry_Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
+				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
 				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Logging_Data.ctl"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
+				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Signal_Pulse.vi"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="tbh.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Motion_Control/tbh.vi"/>
