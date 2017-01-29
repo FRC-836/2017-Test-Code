@@ -134,9 +134,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="BoolConfirmCheck.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/BoolConfirmCheck.vi"/>
 		<Item Name="Drive_Loop_Camera_Sensor.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Camera_Sensor.vi"/>
+		<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Command.vi"/>
 		<Item Name="Drive_Loop_Control_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Control_Loop.vi"/>
 		<Item Name="Drive_Loop_Follow_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Follow_Camera.vi"/>
+		<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Initialize.vi"/>
 		<Item Name="Fault_Cluster.ctl" Type="VI" URL="../Fault_Cluster.ctl"/>
 		<Item Name="Faults.ctl" Type="VI" URL="../Faults.ctl"/>
 		<Item Name="MaddenSharedVariables.lvlib" Type="Library" URL="../MaddenSharedVariables.lvlib"/>
@@ -153,10 +156,20 @@ AddOutputFilter chunkFilter
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Bump_Counter.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
 				<Item Name="Camera_Info_Grab.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Vision/Camera_Info_Grab.vi"/>
+				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
 				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
 				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl"/>
+				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
+				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
+				<Item Name="Drive_Loop_Drive_Distance.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Distance.vi"/>
+				<Item Name="Drive_Loop_Follow_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Follow_Camera.vi"/>
+				<Item Name="Drive_Loop_Hold_Position.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Position.vi"/>
+				<Item Name="Drive_Loop_Hold_Yaw.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Yaw.vi"/>
+				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
+				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
+				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
 				<Item Name="Drive_Types.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Types.ctl"/>
 				<Item Name="GroupChannelIDs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/GroupChannelIDs.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/hmi_cheesy_drive.vi"/>
@@ -167,6 +180,7 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
 				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Logging_Data.ctl"/>
+				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
@@ -278,6 +292,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemGet.vi"/>
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
+				<Item Name="FPGA_UtilitiesRead UserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead UserButton.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
 				<Item Name="Handle Dirty Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Elements.vi"/>
@@ -695,6 +710,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
 				<Item Name="WPI_UtilitiesERRGetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesERRGetRefNum.vi"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
+				<Item Name="WPI_UtilitiesFRC ReadUserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC ReadUserButton.vi"/>
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
