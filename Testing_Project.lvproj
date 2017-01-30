@@ -141,8 +141,11 @@ AddOutputFilter chunkFilter
 		<Item Name="Drive_Loop_Follow_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Follow_Camera.vi"/>
 		<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Loop_Initialize.vi"/>
 		<Item Name="Fault_Cluster.ctl" Type="VI" URL="../Fault_Cluster.ctl"/>
+		<Item Name="Fault_Fifos.ctl" Type="VI" URL="../Fault_Fifos.ctl"/>
+		<Item Name="FaultLogger.vi" Type="VI" URL="../FaultLogger.vi"/>
 		<Item Name="Faults.ctl" Type="VI" URL="../Faults.ctl"/>
 		<Item Name="MaddenSharedVariables.lvlib" Type="Library" URL="../MaddenSharedVariables.lvlib"/>
+		<Item Name="OpenFaultLogger.vi" Type="VI" URL="../OpenFaultLogger.vi"/>
 		<Item Name="RGB_Color.ctl" Type="VI" URL="../RGB_Color.ctl"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="tbhwithreinitialize.vi" Type="VI" URL="../tbhwithreinitialize.vi"/>
@@ -150,6 +153,7 @@ AddOutputFilter chunkFilter
 		<Item Name="TDMS_Channel_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Write.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
+		<Item Name="WriteFault.vi" Type="VI" URL="../WriteFault.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Back_Channel_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/Back_Channel_Data.ctl"/>
