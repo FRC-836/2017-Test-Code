@@ -170,7 +170,6 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
 				<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRead.vi"/>
-				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="IMUOrientRefNum_Registry_Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
@@ -708,11 +707,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="ArcAndTheta.vi" Type="VI" URL="../Test Position/ArcAndTheta.vi"/>
 			<Item Name="Autonomous Independent Cheeto.vi" Type="VI" URL="../Autonomous Independent Cheeto.vi"/>
 			<Item Name="Autonomous Independent Curtis.vi" Type="VI" URL="../Autonomous Independent Curtis.vi"/>
 			<Item Name="Autonomous Independent Ian.vi" Type="VI" URL="../Autonomous Independent Ian.vi"/>
-			<Item Name="BeeHarmonicRadar.vi" Type="VI" URL="../Test Position/BeeHarmonicRadar.vi"/>
 			<Item Name="Begin Cheeto.vi" Type="VI" URL="../Begin Cheeto.vi"/>
 			<Item Name="Begin Curtis.vi" Type="VI" URL="../Begin Curtis.vi"/>
 			<Item Name="Begin Ian.vi" Type="VI" URL="../Begin Ian.vi"/>
