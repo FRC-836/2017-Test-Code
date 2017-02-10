@@ -158,36 +158,35 @@ AddOutputFilter chunkFilter
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Back_Channel_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/Back_Channel_Data.ctl"/>
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Bump_Counter.vi"/>
-				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
+				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
 				<Item Name="Camera_Info_Grab.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Vision/Camera_Info_Grab.vi"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
-				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
-				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
-				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
-				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl"/>
-				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
-				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
-				<Item Name="Drive_Loop_Drive_Distance.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Distance.vi"/>
-				<Item Name="Drive_Loop_Follow_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Follow_Camera.vi"/>
-				<Item Name="Drive_Loop_Hold_Position.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Position.vi"/>
-				<Item Name="Drive_Loop_Hold_Yaw.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Yaw.vi"/>
-				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
-				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
-				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
-				<Item Name="Drive_Types.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Drive_Types.ctl"/>
+				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
+				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
+				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
+				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_PID_Bundle.ctl"/>
+				<Item Name="Drive_Loop_Cheesey_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Cheesey_Drive.vi"/>
+				<Item Name="Drive_Loop_Do_Nothing.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Do_Nothing.vi"/>
+				<Item Name="Drive_Loop_Drive_Continuous.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Continuous.vi"/>
+				<Item Name="Drive_Loop_Drive_Distance.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Drive_Distance.vi"/>
+				<Item Name="Drive_Loop_Hold_Position.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Position.vi"/>
+				<Item Name="Drive_Loop_Hold_Yaw.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Hold_Yaw.vi"/>
+				<Item Name="Drive_Loop_Tank_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Tank_Drive.vi"/>
+				<Item Name="Drive_Loop_Turn.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn.vi"/>
+				<Item Name="Drive_Loop_Turn_to_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Loop_Turn_to_Camera.vi"/>
+				<Item Name="Drive_Types.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Types.ctl"/>
 				<Item Name="GroupChannelIDs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/GroupChannelIDs.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/hmi_cheesy_drive.vi"/>
-				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
 				<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientOpen.vi"/>
 				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRead.vi"/>
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
-				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Logging_Data.ctl"/>
+				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Rot Order.ctl"/>
-				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
+				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="TDMS_Channel_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/TDMS_Channel_Info.ctl"/>
@@ -509,8 +508,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PDPMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPMessageIDs.ctl"/>
 				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
 				<Item Name="WPI_CAN_PDPSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPSend.vi"/>
-				<Item Name="WPI_CANJaguar_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_ControlMode.ctl"/>
-				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_APIControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_APIFeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_APIFeedbackSelect.ctl"/>
 				<Item Name="WPI_CANTalonSRX_BrakeOverride.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_BrakeOverride.ctl"/>
@@ -706,9 +703,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
 				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
-				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
 				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
-				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
 				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
 				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
 				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
