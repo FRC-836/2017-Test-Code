@@ -8,8 +8,10 @@
 	<Property Name="varPersistentID:{17C6DC7D-8DA4-4F6D-8613-78BD157086C8}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Peg Distance</Property>
 	<Property Name="varPersistentID:{381A0714-3E9B-4343-A811-C702CE4B2FB7}" Type="Ref">/Target/Untitled Library 1.lvlib/Rpm2</Property>
 	<Property Name="varPersistentID:{55FA84B3-D27B-4271-A6CB-94D58F009AF0}" Type="Ref">/Target/Untitled Library 1.lvlib/Current3</Property>
+	<Property Name="varPersistentID:{6C4CB040-719D-470E-A9B4-83A3985DD59E}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Boiler Valid</Property>
 	<Property Name="varPersistentID:{80A19D8D-9A98-4772-98FB-4AD6385C19FA}" Type="Ref">/Target/Untitled Library 1.lvlib/Control Signal2</Property>
 	<Property Name="varPersistentID:{87BB3257-B8B9-4485-B7D6-0717D743321E}" Type="Ref">/Target/Untitled Library 1.lvlib/Rpm1</Property>
+	<Property Name="varPersistentID:{AEF0D5F0-DB0D-4583-A713-5E8CED966B8C}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Boiler Yaw</Property>
 	<Property Name="varPersistentID:{C71BB6A5-C353-4E47-A319-D0F2618710FC}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Turret Yaw</Property>
 	<Property Name="varPersistentID:{CAF4997D-2C6B-43DC-A47E-BB7B3E661F04}" Type="Ref">/Target/MaddenSharedVariables.lvlib/Gear Yaw Delta</Property>
 	<Property Name="varPersistentID:{D7C28EE7-DB63-41AD-BD3F-095389DFF6A2}" Type="Ref">/Target/MaddenSharedVariables.lvlib/GearTargetValid</Property>
@@ -155,6 +157,7 @@ AddOutputFilter chunkFilter
 		<Item Name="TDMS_Channel_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Write.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
+		<Item Name="Vision Processing.vi" Type="VI" URL="../../../Robot Code/2017-Robot-Code/Vision Processing.vi"/>
 		<Item Name="WriteFault.vi" Type="VI" URL="../WriteFault.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -162,6 +165,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Bump_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Bump_Counter.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Camera_Cluster.ctl"/>
 				<Item Name="Camera_Info_Grab.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Vision/Camera_Info_Grab.vi"/>
+				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/De-Bounce_or_Delay.vi"/>
 				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 				<Item Name="Drive_Code_Command.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Command.ctl"/>
 				<Item Name="Drive_Code_Notifier.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Drive_Code_Notifier.ctl"/>
@@ -186,6 +190,7 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
 				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl"/>
+				<Item Name="Momentum_Killer.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Motion_Control/Momentum_Killer.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Rot Order.ctl"/>
@@ -771,6 +776,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
 			<Item Name="tbh.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/user.lib/836-Library/Motion_Control/tbh.vi"/>
 			<Item Name="TripandIgnore.vi" Type="VI" URL="../Vision Support Code/TripandIgnore.vi"/>
+			<Item Name="Turret-firstVI.vi" Type="VI" URL="../../../Robot Code/2017-Robot-Code/First Level VIs/Turret-firstVI.vi"/>
 			<Item Name="Vision Processing Curtis.vi" Type="VI" URL="../Vision Processing Curtis.vi"/>
 			<Item Name="Vision Processing Ian.vi" Type="VI" URL="../Vision Processing Ian.vi"/>
 		</Item>
