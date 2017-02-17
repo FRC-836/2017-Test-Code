@@ -155,6 +155,7 @@ AddOutputFilter chunkFilter
 		<Item Name="tbhwithreinitialize.vi" Type="VI" URL="../tbhwithreinitialize.vi"/>
 		<Item Name="TDMS_Channel_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Initialize.vi"/>
 		<Item Name="TDMS_Channel_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/System/TDMSv2/TDMS_Channel_Write.vi"/>
+		<Item Name="TurretStates.ctl" Type="VI" URL="../TurretStates.ctl"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Vision Processing.vi" Type="VI" URL="../../../Robot Code/2017-Robot-Code/Vision Processing.vi"/>
@@ -189,14 +190,14 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="IMUOrientRefNum_Registry_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/IMUOrientRefNum_Registry_Get.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/JK_Latch.vi"/>
+				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Latch.vi"/>
 				<Item Name="Logging_Data.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Logging_Data.ctl"/>
-				<Item Name="Momentum_Killer.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Motion_Control/Momentum_Killer.vi"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Drive/Drive_Code/Drive_Code_Support/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Setup State.ctl"/>
-				<Item Name="Soft_Stops.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Motion_Control/Soft_Stops.vi"/>
+				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-libraries/Sensor/IMU/Status.vi"/>
 				<Item Name="TDMS_Channel_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/TDMS_Channel_Info.ctl"/>
 				<Item Name="TDMS_RT_FIFO_Packet.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMSv2/TDMS_RT_FIFO_Packet.ctl"/>
@@ -353,6 +354,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
+				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
